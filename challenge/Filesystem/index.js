@@ -3,7 +3,7 @@
 const fs = require("fs")
 const path = require("path");
 
-const filePath = path.resolve(__dirname, 'notes.txt');
+const filePath = path.resolve(__dirname, 'notes.txt')
 
 const fileReadCallBack = (error, data) => {
     if(error) {
