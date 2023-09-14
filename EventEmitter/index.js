@@ -1,6 +1,5 @@
 const { EventEmitter } = require("events")
 
-
 const myEventEmitter = new EventEmitter()
 
 // Fungsi yang akan dijalankan ketika event coffee-order terjadi
